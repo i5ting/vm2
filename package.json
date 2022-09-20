@@ -20,12 +20,16 @@
   "license": "MIT",
   "dependencies": {
     "acorn": "^8.7.0",
-    "acorn-walk": "^8.2.0"
+    "acorn-walk": "^8.2.0",
+    "debug": "^4.3.4"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-integromat": "^1.5.0",
-    "mocha": "^6.2.2"
+    "fs-monkey": "^1.0.3",
+    "memfs": "^3.4.7",
+    "mocha": "^6.2.2",
+    "unionfs": "^4.4.0"
   },
   "engines": {
     "node": ">=6.0"
